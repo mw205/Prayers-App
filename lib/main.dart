@@ -9,9 +9,8 @@ import 'model/Services/notification_service.dart';
 import 'prayer_app.dart';
 
 void main() async {
-  await SystemChrome.setPreferredOrientations([DeviceOrientation.portraitUp]);
-
   WidgetsFlutterBinding.ensureInitialized();
+  await SystemChrome.setPreferredOrientations([DeviceOrientation.portraitUp]);
   await GetStorage.init();
   await initialServices();
   await NotificationService().init();
