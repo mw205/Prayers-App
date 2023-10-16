@@ -38,7 +38,6 @@ dependencies:
   get: ^4.6.5
   intl: ^0.18.1
   flutter_screenutil: ^5.9.0
-  geolocator: ^9.0.2
   geocoding: ^2.1.0
   flutter_islamic_icons: ^1.0.2
   flutter_animate: ^4.2.0+1
